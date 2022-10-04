@@ -28,6 +28,11 @@ header {
   background-color: #31bc9c;
 }
 
+.img, svg {
+  vertical-align: middle;
+  width: 230px;
+  height: 250px;
+}
 
 .cards .col {
 
