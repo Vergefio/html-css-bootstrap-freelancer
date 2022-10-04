@@ -1,26 +1,46 @@
+[class^="container"],
+[class^="col"] {
+  background-color: rgba(127, 255, 212, 0.553);
+  border: 1px solid black;
+  min-height: 50px;
+}
+
+.sc-container {
+  width: 60%;
+  margin: 0 auto;
+}
+
 body {
   color: white;
 }
 
 header {
-  height: 90px;
+  height: 80px;
   background-color: #2C3E50;
+}
+
+.navbar-toggler.sc-hamburger {
+  border: none;
 }
 
 .jumbotron {
   height: 490px;
-  background-color: #31BC8C;
+  background-color: #31bc9c;
 }
 
-section {
-  margin-bottom: 60px;
+
+.cards .col {
+
+
+  /*debug*/
+  height: 150px;
 }
 
-.rds-container {
-  width: 60%;
-  margin: 0 auto;
-}
 
 #about {
   background-color: #31bc9c;
+}
+
+.form {
+  height: 500px;
 }
